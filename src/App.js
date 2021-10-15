@@ -84,7 +84,6 @@ class App extends Component {
 
   handleRestart = () => {
     this.setState({ currentScore: 0 });
-    this.setState({ highScore: 0 });
     this.setState({ gameOver: false });
     this.setState({ Clicked: false });
   }
